@@ -1,4 +1,4 @@
-Tonepedia TDD Test
+Basic TDD Test
 ==================
 
 FizzBuzz
