@@ -1,7 +1,8 @@
 Tonepedia TDD Test
 ==================
 
-#####FizzBuzz
+FizzBuzz
+--------
 Please implement a FizzBuzz Programm that will fulfill the following criteria 
 * iterate over all whole positive integers from 1 to 100
 * output the integer if none of the following apply
@@ -14,13 +15,15 @@ Please implement a FizzBuzz Programm that will fulfill the following criteria
   * GREEN
   * REFACTOR
 
-#####TDD Laws
+TDD Laws
+--------
 * you can not write any production code until you have first written a unit test that fails
 * you can not write more of a unit test than is sufficient to fail, and not compiling is failing
 * you can not write more production code than is sufficient to pass the currently failing unit test
 
 
-#####Docker Setup & Usage 
+Docker Setup & Usage
+-------------------- 
 * Setup
 ```bash
 docker-compose build
