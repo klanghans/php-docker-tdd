@@ -21,11 +21,14 @@ TDD Laws
 * you can not write more of a unit test than is sufficient to fail, and not compiling is failing
 * you can not write more production code than is sufficient to pass the currently failing unit test
 
-
+-----------------------------------
+PHP
+---
 Docker Setup & Usage
 -------------------- 
 * Setup
 ```bash
+cd php
 docker-compose build
 mkdir vendor && chmod -R 0777 vendor
 echo "{}" | tee composer.lock && chmod 0777 composer.lock
@@ -41,3 +44,4 @@ docker-compose run php vendor/bin/phpunit
 "when you created new classes, composer autoloader needs a dump"
 docker-compose run php composer dumpautoload
 ```
+-----------------------------------

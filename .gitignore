@@ -65,5 +65,5 @@ $RECYCLE.BIN/
 vendor/
 .idea/
 composer.lock
-src/Company/*.php
-tests/Company/*.php
+php/src/Company/*.php
+php/tests/Company/*.php

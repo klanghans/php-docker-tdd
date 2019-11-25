@@ -7,7 +7,7 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
-    image: tonepedia/php-tdd
+    image: company/php-tdd
     cap_drop: [all]
     cap_add: [chown, setuid, setgid, setfcap]
     volumes:
